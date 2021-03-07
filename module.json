@@ -1,0 +1,7 @@
+{
+	"disableAutoUpdate": false,
+	"name": "Pepega",
+	"author": "Modnox",
+	"description": "Sends pepega messages",
+	"servers": ["https://raw.githubusercontent.com/Modnox/pepega/main/"]
+}

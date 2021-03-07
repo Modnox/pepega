@@ -1,4 +1,4 @@
-module.exports = function catsupporter(dispatch) {
+module.exports = function pepega(dispatch) {
     let enabled = true
     let names = ['Keiru']
     let messages =
