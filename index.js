@@ -29,7 +29,7 @@ module.exports = function pepega(dispatch) {
 
     function sendMessage(name) {
         setTimeout(function () {
-            dispatch.toServer('C_CHAT', 1, {channel: 1, message: name  + messages[rand(messages.length)]});
+            dispatch.toServer('C_CHAT', 1, {channel: 1, message: name  + messages[rand(messages.length-1)]});
         }, 500);
     }
 
