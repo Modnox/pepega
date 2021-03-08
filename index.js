@@ -16,8 +16,10 @@ module.exports = function pepega(dispatch) {
     })
 
     dispatch.hook('S_USER_DEATH', 1, (event) => {
-        if (names.includes(event.name)) {
-            sendMessage(event.name)
+        if(enabled){
+            if (names.includes(event.name)) {
+                sendMessage(event.name)
+            }
         }
     })
 
