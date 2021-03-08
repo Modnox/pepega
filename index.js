@@ -1,6 +1,7 @@
 module.exports = function pepega(dispatch) {
+    const config = require('./config.json')
     let enabled = true
-    let names = ['Keiru']
+    let names = config.name
     let messages =
         [': Another One!',
             ' you TRASH LMAO.',
