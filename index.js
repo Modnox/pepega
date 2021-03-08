@@ -7,7 +7,14 @@ module.exports = function pepega(dispatch) {
             '. Here we go again!',
             ' PEPEGA!',
             ' nice floormat.',
-            ' is getting closer to the wheelchair.'
+            ' is getting closer to the wheelchair.',
+            '. /drop when?',
+            ' is taking a break.',
+            '. Nice parse!',
+            ' is living the Youtuber lifestyle.',
+            '.exe has stopped working.',
+            '! Guide has been disabled.',
+            '. Mistakes were made.'
         ]
 
     dispatch.command.add('pepega', (cmd) => {
