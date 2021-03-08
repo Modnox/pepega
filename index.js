@@ -2,21 +2,7 @@ module.exports = function pepega(dispatch) {
     const config = require('./config.json')
     let enabled = true
     let names = config.name
-    let messages =
-        [': Another One!',
-            ' you TRASH LMAO.',
-            '. Here we go again!',
-            ' PEPEGA!',
-            ' nice floormat.',
-            ' is getting closer to the wheelchair.',
-            '. /drop when?',
-            ' is taking a break.',
-            '. Nice parse!',
-            ' is living the Youtuber lifestyle.',
-            '.exe has stopped working.',
-            '! Guide has been disabled.',
-            '. Mistakes were made.'
-        ]
+    let messages = config.messages
 
     dispatch.command.add('pepega', (cmd) => {
         switch (cmd) {
