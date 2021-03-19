@@ -13,7 +13,7 @@ module.exports = function pepega(dispatch) {
             default:
                 if (pepegamode) {
                     setTimeout(function () {
-                        dispatch.toServer('C_CHAT', 1, {channel: 1, message: 'pr valk'});
+                        dispatch.toServer('C_CHAT', 1, {channel: 2, message: 'pr valk'});
                     }, 500);
                     dispatch.command.message('you shall not pass!');
                     break;
