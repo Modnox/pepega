@@ -31,7 +31,7 @@ module.exports = function pepega(dispatch) {
             if (pepegamode) {
                 dispatch.command.exec('pr off')
                 setTimeout(function () {
-                    dispatch.toServer('C_CHAT', 1, {channel: 1, message: 'sadge'});
+                    dispatch.toServer('C_CHAT', 1, {channel: 27, message: 'sadge'});
                 }, 500);
             }
         }
