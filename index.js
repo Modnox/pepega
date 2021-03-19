@@ -11,6 +11,10 @@ module.exports = function pepega(dispatch) {
                 sendMessage('Test')
                 break;
             default:
+                if (pepegamode) {
+                    dispatch.command.message('you shall not pass!');
+                    break;
+                }
                 enabled = !enabled
                 dispatch.command.message('pepega ' + (enabled ? 'enabled' : 'disabled'))
         }
